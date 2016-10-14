@@ -1,147 +1,187 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html lang="en">
   <head>
-      
-      <title>Computer Science Society | ACM @ Cal Poly Pomona</title>
-      <meta charset="utf-8">
-      <meta name="author" content="Camille Nibungco">
-      <meta name="keywords" content="CSS, Hackers, Cal Poly Pomona, Computer Science, CPP, Engineering">
-      <meta name="apple-mobile-web-app-capable" content="yes">
-      <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="docs/dist/font-awesome-4.6.3/css/font-awesome.min.css">
 
-      <link rel="shortcut icon" href="img/favicon.ico">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/animate.css">
-      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,700">
+    <title>Computer Science Society</title>
 
-      <meta property="og:title" content="Computer Science Society">
-      <meta property="og:type" content="website">
-      <meta property="og:image" content="http://cpp-css.github.io">
-      <meta property="og:url" content="http://cpp-css.github.io">
-      <meta property="og:description" content="Computer Science Society(CSS)'s goal is to encourage the development of software engineering skills in students to help them prepare for real life jobs in industry."/>
-      <script src="https://use.fontawesome.com/6f02b34f75.js"></script>
-      <script type="text/javascript" src="js/form.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="docs/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="docs/assets/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <script src="docs/assets/ie-emulation-modes-warning.js"></script>
+
+    <link href="docs/dist/css/style.css" rel="stylesheet">
   </head>
+<!-- NAVBAR
+================================================== -->
   <body>
+    <div class="navbar-wrapper">
+      <div class="container">
 
-    <!-- Header -->
-    <div class="section meeting-img" id="header">
-      <div class="mid">
-        <img class="logo" src="images/logo-l.png">
+        <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Computer Science Society</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#about">ABOUT</a></li>
+                <li><a href="#meetings">MEETINGS</a></li>
+                <li><a href="#events">EVENTS</a></li>
+                <!--INTENDED FUTURE TABS
+                <li><a href="#calendar">CALENDAR</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#eboard">E-BOARD</a></li>
+                -->
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
 
-    <!-- Sticky Navigation -->
-    <div class="orange" id="nav">
-      <!--<img class="logo-h" src="/images/lo.png">-->
-        <h1 style="float:left; padding:10px;">COMPUTER SCIENCE SOCIETY</h1>
-      <!-- <a href="schedule">schedule</a>
-      <a href="roster">roster</a>
-      <a href="projects">projects</a> -->
-      <div class="orange" id="navwrapper">
-    <!--    <a href="calendar" class="navlink">calendar</a>-->
-        <a href="#mission" class="navlink">mission</a>
-        <a href="#mission3" class="navlink">meetings</a>
-        <a href="#contact" class="navlink">contact</a>
-        <a href="" class="navlink"></a>
-      </div>
-    </div>
 
-    <!-- Mission -->
-    <div class="section laptop-img" id="mission">
-      <div class="mid">
-        <div class="rect">
-          <h1>
-            The Computer Science Society's goal is to encourage the development of software engineering skills in students to help them prepare for real life jobs in industry.  
-          </h1>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/CSS banner.png" alt="Computer Science Society">
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/firstmeeting1.jpg" alt="First Meeting">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>First Meeting of the Year</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/TechnicalTuesdayslogo.png" alt="Technical Tuesdays">
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    
+    <div class="container">
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="about">
+        <div class="col-md-5">
+          <h2 class="featurette-heading">MISSION STATEMENT</h2>
+          <p class="lead">CSS' goal is to encourage the development of software engineering skills in students to help them prepare for real life jobs in industry. We work on many open source projects ready for people of all skill levels to contribute, from Android/iOS development, to web development, and even computer vision. This year, we plan on solving a massive problem that all Cal Polyers face: parking. <!--(link to architecture design doc of project)!!--> Students should feel comfortable and ready to work at an internship or full time job with the skills they acquire from CSS. </p>
+          <p class="lead">CSS is also a great place to network with recruiters and learn from guest speakers that do real life software development. We have speakers from Google, Microsoft, JPL, Raytheon, and many other companies! CSS is also one of the best places to meet new friends in the Computer Science community! You can find mentors, classmates, and fellow bright-eyed prospective developers walking about!</p>
+          
+        </div>
+        <div class="col-md-7">
+          <img class="featurette-image img-responsive center-block" img src="images/css-square.png" alt="Computer Science Society">
         </div>
       </div>
-    </div>
 
-    <!-- Hacker Definition -->
-    <div class="section grey short" id="definitions">
-      <div class="mid">
-        <div class="block w25">
-          <img src="/images/pencil.png">
-          <h2>Learn</h2>
-        </div>
-        <div class="block w25">
-          <img src="images/hammer.png">
-          <h2>Build</h2>
-        </div>
-        <div class="block w25">
-          <img src="images/globe.png">
-          <h2>Connect</h2>
-        </div>
-      </div>
-    </div>
+      <hr class="featurette-divider">
 
-    <!-- Mission Statement 2-->
-    <div class="section mhacks-img" id="mission2">
-      <div class="mid">
-        <div class="rect">
-          <h1>
-            We work on many open source projects ready for people of all skill levels to contribute, from Android/iOS development, to web development, and even computer vision. This year, we plan on solving a massive problem that Cal Poly faces: parking  
-          </h1>
+      <div class="row featurette" id="meetings">
+        <div class="col-md-7 col-md-push-6">
+          <h2 class="featurette-heading">MEETINGS</h2>
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h3>General Meetings</h3>
+                <ul>
+                  <li><h4>Thursdays at U-Hour (12 - 12:50pm)</h4></li>
+                </ul>
+              </div>
+              <div class="col-md-7">
+                <h3>Technical Meetings</h3>
+                <ul>
+                  <li><h4>Thursdays at U-Hour (12 - 12:50pm)</h4></li>
+                </ul>
+              </div>  
+              <div class="col-md-7">
+              <!-- Enter short paragraph to talk about what happens during meetings-->
+              </div>
+            </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Contact -->
-    <div class="section hack-img" id="mission3">
-      <div class="mid">
-        <div class="rect">
-          <h1>
-            Let's learn together - attend meetings, listen to Tech Talks, go to hackathons, and always be building.<br><strong>CSS meets every Tuesday and Thursday during U-Hour at room 3-2137.</strong> 
-          </h1>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" img src="images/picnic2016.jpg" alt="2016 End of the Year Picnic">
         </div>
       </div>
-    </div>
 
-    <!-- Email
-    <div class="section grey short" id="email">
-      <div class="mid">
-      <form action="javascript: submitEmail()">
-        <h2>Sign up for our email list</h2>
-        <p style="font-size: 20px;">You will receive our email detailing upcoming events, tech talks, hackathons, and news once every few weeks.</p><br>
-        <p><input type="text" id="emailResponse" size="30" style="font-size: 100%; padding: 10px; border: 2px solid #aaa; max-width:60%" name="emailResponse" placeholder="css@cpp.edu">
-        <input class="submitButton" type="submit" style="font-size: 100%; padding: 10px; background: #aaa;  border: 2px solid #aaa; max-width: 30%" value="Submit"></p>
-      </form>
-      </div>
-    </div>  -->
+      <hr class="featurette-divider">
 
-    <div class="section grey short" id="join">
-      <div class="mid">
-        
-        <h2>Join our Facebook Group</h2>
-        <p style="font-size: 20px;">If you're interested in more specifics about what we do, or in joining us at our events</p><br>
-        <h3 style="color: #444444"><a href="https://www.facebook.com/groups/cppcss/" target="_blank">learn more here</a></h3>
-      </div>
-    </div>
-
-    <!-- Contact -->
-    <div class="section grey shorter" id="contact">
-      <div class="mid">
-        <h2>Reach out to us!</h2>
-        <p>If there's something you want to learn, let us know, and we'll connect you with the resources to make it happen.</p>
-        <a class="block w15 btn_img" title="Facebook" href="https://www.facebook.com/cppcss">
-          <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-        </a>
-        <a class="block w15 btn_img" title="Email" href="mailto:css@cpp.edu">
-          <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-        </a>
-        <a class="block w15 btn_img" title="GitHub" href="https://github.com/cpp-css"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-      </div>
-    </div>
-
-
-
-   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.sticky.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-
-  </body>
-
-  
+      <div class="row featurette" id="events">
+        <div class="col-md-10">
+          <h2 class="featurette-heading">EVENTS</h2>
+          <p class="lead">Throughout the academic year CSS holds many events for students to be involved with. Some events in which CSS has encouraged and helped coordinate for students to be envolved have included: ACM competition preparedness, Hackpoly, an annual end of the year picnic, broomball, bowling and numerous others.</p>
+        </div>
       
-</html> 
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!--
+      <h2 class="featurette-heading">CALENDAR</h2>
+
+      <hr class="featurette-divider">
+      -->
+      <!-- /END THE FEATURETTES -->
+    </div><!-- /.container -->
+
+    <div>
+    <!-- FOOTER -->
+      <footer>
+
+        <p class="pull-right"><a href="https://www.facebook.com/groups/cppcss/" target="_blank"><i class="fa fa-facebook-official fa-3x social" aria-hidden="true"></i></a><a href="https://github.com/cpp-css" target="_blank"><i class="fa fa-github-square fa-3x social" aria-hidden="true"></i></a><a href="mailto:css.cpp.edu@gmail.com"><i class="fa fa-envelope-square fa-3x social" aria-hidden="true"></i></a><a href="#"><i class="fa fa-angle-double-up fa-3x social" aria-hidden="true"></i></a></p>
+        <p class="copyright">&copy; 2016 Computer Science Society</p>
+
+      </footer>
+
+      </div><!-- /.footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/jquery.min.js"><\/script>')</script>
+    <script src="docs/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="docs/assets/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
