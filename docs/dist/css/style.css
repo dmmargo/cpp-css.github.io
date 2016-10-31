@@ -51,14 +51,15 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  /*white*/
+  background-color: #ffffff;
 }
 .carousel-inner > .item > img {
-  position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  max-width: 100%;
   height: 500px;
+  margin:auto;
 }
 
 
@@ -85,6 +86,7 @@ possible swatch colors to include
  #D1D2D4
 
 ------------------------- */
+
 
 .carousel-indicators li { 
   visibility: hidden;
@@ -189,4 +191,67 @@ footer {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+
+/*Hide Carousel on small devices*/
+@media (max-width:900px) {
+    #myCarousel {
+        display:none !important;
+    }
+}
+
+@media (max-width: 600px) {
+  .copyright {
+    display: none !important;
+  }
+
+  .fa-3x {
+    font-size: 2em;
+  }
+
+  .fa-angle-double-up{
+    display: none !important;
+  }
+
+  .social {
+    margin: 0.1em; 
+  }
+
+}
+
+@media (max-width: 320px) {
+  .fa-3x {
+    font-size: 1.3em;
+  }
+    
+  .footer {
+    padding: 1em .3em;
+  }
+
+  .navbar-brand {
+    font-size: 1em;
+  }
+
+  .featurette-image {
+    display: none !important;
+  }
+
+  .featurette-divider {
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+}
+
+@media (max-width: 240px) {
+
+  .fa-3x {
+    display: none !important;
+  }
+
+  .navbar-brand {
+    font-size: .6em;
+  }
+}
+
+  
 }
