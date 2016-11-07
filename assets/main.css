@@ -3481,7 +3481,7 @@ footer .inner>p {
 }
 
 .fullscreen {
-    background-image: url(/assets/img/cpp.jpg);
+    background-image: url("/assets/img/cpp.jpg");
     background-size: cover;
     background-position: bottom right
 }
