@@ -1305,7 +1305,10 @@ body,input,select,textarea {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 470px) {
+    .nav-menu{
+      font-size: 8pt;
+    }
     .row>* {
         padding:0 0 0 1.5em
     }
